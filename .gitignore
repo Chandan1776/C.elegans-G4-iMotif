@@ -1,0 +1,33 @@
+# Large biological datasets
+*.fa
+*.fasta
+*.fa.gz
+*.fasta.gz
+*.gff
+*.gff3
+*.gff3.gz
+*.gtf
+*.gtf.gz
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Conda/environment
+.env
+
+# VS Code
+.vscode/
+
+# Microsoft Office temporary files
+~$*
+# Unpublished manuscript
+Conclusions/*.docx
+# Local datasets
+Data_Sets/

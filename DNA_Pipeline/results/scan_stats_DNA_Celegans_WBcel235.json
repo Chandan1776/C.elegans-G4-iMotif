@@ -1,0 +1,177 @@
+{
+  "species": "Caenorhabditis elegans",
+  "assembly": "WBcel235",
+  "annotation_source": "WormBase WBPS19 (PRJNA13758)",
+  "scan_mode": "genome-wide forward-strand DNA scan",
+  "chromosomes_scanned": 7,
+  "total_pis_hits": 1222,
+  "total_pgs_hits": 1150,
+  "genes_annotated": 47651,
+  "pis_pattern": "C{3,5}[ATCG]{1,7}C{3,5}[ATCG]{1,7}C{3,5}[ATCG]{1,7}C{3,5}",
+  "pgs_pattern": "G{3,5}[ATCG]{1,7}G{3,5}[ATCG]{1,7}G{3,5}[ATCG]{1,7}G{3,5}",
+  "per_chromosome": {
+    "I": {
+      "length_bp": 15072434,
+      "pis_hits": 196,
+      "pgs_hits": 185
+    },
+    "II": {
+      "length_bp": 15279421,
+      "pis_hits": 206,
+      "pgs_hits": 158
+    },
+    "III": {
+      "length_bp": 13783801,
+      "pis_hits": 182,
+      "pgs_hits": 121
+    },
+    "IV": {
+      "length_bp": 17493829,
+      "pis_hits": 181,
+      "pgs_hits": 181
+    },
+    "V": {
+      "length_bp": 20924180,
+      "pis_hits": 194,
+      "pgs_hits": 223
+    },
+    "X": {
+      "length_bp": 17718942,
+      "pis_hits": 263,
+      "pgs_hits": 282
+    },
+    "MtDNA": {
+      "length_bp": 13794,
+      "pis_hits": 0,
+      "pgs_hits": 0
+    }
+  },
+  "region_density_statistics": {
+    "promoter": {
+      "pgs": {
+        "mean_all_regions": 0.0,
+        "median_all_regions": 0.0,
+        "mean_positive_regions": 0.0,
+        "median_positive_regions": 0.0
+      },
+      "pis": {
+        "mean_all_regions": 0.0,
+        "median_all_regions": 0.0,
+        "mean_positive_regions": 0.0,
+        "median_positive_regions": 0.0
+      }
+    },
+    "TSS_region": {
+      "pgs": {
+        "mean_all_regions": 0.0,
+        "median_all_regions": 0.0,
+        "mean_positive_regions": 0.0,
+        "median_positive_regions": 0.0
+      },
+      "pis": {
+        "mean_all_regions": 0.0,
+        "median_all_regions": 0.0,
+        "mean_positive_regions": 0.0,
+        "median_positive_regions": 0.0
+      }
+    },
+    "five_prime_UTR": {
+      "pgs": {
+        "mean_all_regions": 0.07932313218390805,
+        "median_all_regions": 0.0,
+        "mean_positive_regions": 3.45055625,
+        "median_positive_regions": 2.05045
+      },
+      "pis": {
+        "mean_all_regions": 0.4392794540229885,
+        "median_all_regions": 0.0,
+        "mean_positive_regions": 16.98547222222222,
+        "median_positive_regions": 2.7522
+      }
+    },
+    "CDS": {
+      "pgs": {
+        "mean_all_regions": 0.16192996300863133,
+        "median_all_regions": 0.0,
+        "mean_positive_regions": 1.1419582608695653,
+        "median_positive_regions": 0.7123
+      },
+      "pis": {
+        "mean_all_regions": 0.1633616522811344,
+        "median_all_regions": 0.0,
+        "mean_positive_regions": 0.8773927152317881,
+        "median_positive_regions": 0.6487
+      }
+    },
+    "intron": {
+      "pgs": {
+        "mean_all_regions": 0.1605109589041096,
+        "median_all_regions": 0.0,
+        "mean_positive_regions": 0.5197189516129033,
+        "median_positive_regions": 0.19435
+      },
+      "pis": {
+        "mean_all_regions": 0.13599713574097136,
+        "median_all_regions": 0.0,
+        "mean_positive_regions": 0.4120969811320755,
+        "median_positive_regions": 0.1858
+      }
+    },
+    "three_prime_UTR": {
+      "pgs": {
+        "mean_all_regions": 0.0859677807486631,
+        "median_all_regions": 0.0,
+        "mean_positive_regions": 2.9229045454545455,
+        "median_positive_regions": 2.1882
+      },
+      "pis": {
+        "mean_all_regions": 0.27051711229946523,
+        "median_all_regions": 0.0,
+        "mean_positive_regions": 6.5273161290322586,
+        "median_positive_regions": 2.0704
+      }
+    },
+    "exon": {
+      "pgs": {
+        "mean_all_regions": 0.0,
+        "median_all_regions": 0.0,
+        "mean_positive_regions": 0.0,
+        "median_positive_regions": 0.0
+      },
+      "pis": {
+        "mean_all_regions": 0.0,
+        "median_all_regions": 0.0,
+        "mean_positive_regions": 0.0,
+        "median_positive_regions": 0.0
+      }
+    },
+    "gene_body": {
+      "pgs": {
+        "mean_all_regions": 0.5003679621848739,
+        "median_all_regions": 0.0,
+        "mean_positive_regions": 1.0423420131291028,
+        "median_positive_regions": 0.1977
+      },
+      "pis": {
+        "mean_all_regions": 0.5147900210084033,
+        "median_all_regions": 0.0403,
+        "mean_positive_regions": 0.9704556435643564,
+        "median_positive_regions": 0.186
+      }
+    },
+    "total_gene": {
+      "pgs": {
+        "mean_all_regions": 0.5446824579831933,
+        "median_all_regions": 0.00485,
+        "mean_positive_regions": 1.0893649159663865,
+        "median_positive_regions": 0.19974999999999998
+      },
+      "pis": {
+        "mean_all_regions": 0.5290066176470588,
+        "median_all_regions": 0.05335,
+        "mean_positive_regions": 0.9466434210526316,
+        "median_positive_regions": 0.18495
+      }
+    }
+  }
+}
